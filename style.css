@@ -1,0 +1,236 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: block;
+    max-width: 1320px;
+    width: 100%;
+    margin:  auto;
+}
+/* --------NavBar-------- */
+.flex-wrap{
+  display: flex;
+}
+.top-navbar.flex-wrap {
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.logo-text {
+    padding: 18px 0 20px 5px;
+    color: #38449c;
+    font-weight: 500;
+}
+.top-navbar .list-wrapper {
+    list-style: none;
+    padding-top: 15px;
+}
+.list-wrapper li {
+    padding-right: 55px;
+}
+.list-wrapper li a{
+    color: #748484;
+    text-decoration: none;
+}
+.list-wrapper li a:hover{
+    color: #445b5d;
+    font-weight: bold;
+}
+.nav-last {
+    padding-top: 12px;
+}
+.btn-txt {
+    color: white;
+    background-color: #38449c;
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: lighter;
+    border: none;
+}
+
+/* Section1 */
+.section1,.section2,.section3,.section4,.section5,.section6{
+    margin-bottom: 10%;
+}
+.header-img {
+    width: 100%;
+}
+.content-wrapper{
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom: 20%;
+   color: white;
+   padding: 20px;
+
+}
+.image-content-wrapper{
+    position: relative;
+}
+/* Section2 */
+.section2 .img-wrapper {
+    background-color: #e7edf7;
+    display: inline-block;
+    /* width: 30%; */
+    padding: 5px;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+
+}
+.section2 .card-title {
+    padding-top: 10px;
+}
+.section2 .card-text {
+    font-weight: 300;
+    padding-top: 10px;
+
+}
+.section2 .card-body img {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.section2 .card,
+.section5 .card{
+    box-shadow: 5px 10px 10px #e7edf7;
+    border: 1px #e7edf7;
+}
+.section2 .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+/* Section3 */
+.section3{
+    background-color: #f7f9fe;
+    padding: 30px 10px 10px;
+    width: 100%;
+    position: relative;
+}
+.section3 .whole-section-wrap{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.section3 .h3-section3{
+     margin-bottom: 1rem;
+     font-weight: bold;
+} 
+.section3 li {list-style: none;}
+.section3 li a{color: black;}
+.section3 li a:hover{
+    text-decoration: underline;
+    color:#143434;
+}
+.section3 .card{
+    color:#143434;
+    border: none;
+    background-color: #f7f9fe;
+    /* z-index: 5; */
+
+}
+.section3 .card .img-wrapper{
+   z-index: 5;
+}
+.section3 .flex-wrap {
+    justify-content: space-between;
+    font-weight: lighter;
+}
+.section3 .card .card-text{
+    font-weight: lighter;
+}
+.section3 .cards-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 10px;
+}
+.dot1 {
+    position: absolute;
+    top: 40px;
+    left: 7.5px;
+    z-index: 1;
+}
+.dot2 {
+    position: absolute;
+    bottom: 11.5rem;
+    right: 0;
+}
+
+/* Section4 */
+.h3-wrapper {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.grid-images-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+     'item1 item2'
+     'item1 item3' ;
+}
+.grid-images-wrapper img{
+    width: 100%;
+    height: auto;
+}
+.grid-images-wrapper .flight{
+    width: 83%;
+}
+.item1{grid-area: item1;}
+.item2{grid-area: item2;}
+.item3{grid-area: item3;}
+
+/* Section5 */
+.section5 .card {
+    padding: 20px;
+}
+.name-title-wrapper {
+    padding-left: 13px;
+    padding-top: 10px;
+}
+.name-title-wrapper .title {
+    font-weight: lighter;
+}
+.section5 .img-p-wrap p {
+    font-weight: 300;
+    padding-left: 20px;
+}
+.section5 .img-p-wrap  {
+    display: flex;
+}
+/* Section6 */
+.section6 .flex-wrap {
+    justify-content: space-between;
+}
+.section6 .flex-wrap li {
+    list-style: none;
+}
+.section6 .flex-wrap a {
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+}
+.icons-wrapper img{
+    padding-right: 15px;
+}
+.section6 {
+    background-color: #ccd4e4;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+}
+.section6 .p-wrap,
+.section6 .flex-wrap.spaces {
+    padding-top: 10px;
+    font-weight: 300;
+}
